@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>FORMULÁRIO DE CADASTRO</title>
+
+</head>
+
+
+
+<body>
+
+    <h1>Página de Cadastro</h1>
+
+
+
+    <form action="#">
+
+        <fieldset>
+
+            <legend>CRIE SUA CONTA</legend>
+
+
+
+            <label for="id_nome">Nome:</label><br>
+
+            <input type="text" id="id_nome" name="usuario_nome" required><br><br>
+
+
+
+            <label for="id_email">Email:</label><br>
+
+            <input type="email" id="id_email" name="usuario_email" placeholder="exemplo@email.com" required><br><br>
+
+
+
+            <label for="id_senha">Senha:(8 dígitos):</label><br>
+
+            <input type="password" id="id_senha" name="usuario_senha" minlength="8" required><br><br>
+
+
+
+            <b>GÊNERO:</b><br>
+
+            <input type="radio" name="genero" value="F"> Feminino <br>
+
+            <input type="radio" name="genero" value="M"> Masculino <br><br>
+
+
+
+            <b>BIOGRAFIA:</b><br>
+
+            <textarea name="biografia" rows="4" placeholder="Fale um pouco sobre você..."></textarea><br><br>
+
+
+
+            <input type="checkbox" required> Eu li e aceito os termos de serviço<br><br>
+
+           
+
+            <button type="submit">ENVIAR</button>
+
+            <button type="reset">LIMPAR</button>
+
+
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
